@@ -1,0 +1,409 @@
+body {
+    background: rgb(29, 28, 28);
+    font-family: "Open Sans",sans-serif;
+}
+
+.fondo {
+    top: 90px;
+    max-width: 100%;
+    min-width: 675px;
+    height: 350px;
+}
+
+.fondo1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    height: 400px;
+    filter: blur(5px);
+    
+}
+
+@media only screen and (max-width: 575px) {
+    .fondo1{
+        height: 250px;
+    }
+}
+
+.fondo1:hover {
+    filter: blur(0px);
+}
+
+.portada {
+    position: absolute;
+    height: 275px;
+    margin-left: 135px;
+    min-width: 675px;
+    max-width: 100%;
+    top:40%;
+}
+
+.portada1 {
+    height: 275px;
+    width: 190px;
+    z-index: 1;
+}
+
+.titulo {
+    position: relative;
+    top: 100px;
+    left: 345px;
+    border-bottom: 1px solid #3e4234;
+    color: rgb(212, 212, 16);
+    max-width: 1000px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: lighter;
+}
+
+.descripcion {
+    position: relative;
+    top: 100px;
+    color: #ffffff;
+    margin-left: 350px;
+}
+
+.conjunto3 {
+    position: relative;
+    left: 350px;
+    top: 100px;
+    max-width: 75%;
+    min-width: 675px;
+    height: auto;
+}
+
+.generos {
+    color: #b1aeae;
+    float: left;
+}
+
+.are_cat{
+    text-decoration: none;
+    color: #ebcc43;
+    border: 1px solid #ebcc43;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.are_cat:hover{
+    text-decoration: none !important;
+    color: #ebcc43 !important;
+}
+
+.uno {
+    text-decoration: none;
+    color: #d15422;
+    border: 1px solid #d15422;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+
+}
+
+.uno:hover {
+    background: #d15422;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dos {
+    text-decoration: none;
+    color: #d15422;
+    border: 1px solid #d15422;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.dos:hover {
+    background: #d15422;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tres {
+    text-decoration: none;
+    color: #d15422;
+    border: 1px solid #d15422;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+
+}
+
+.tres:hover {
+    background: #d15422;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cuatro {
+    text-decoration: none;
+    color: #d15422;
+    border: 1px solid #d15422;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+
+}
+
+.cuatro:hover {
+    background: #d15422;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cinco {
+    text-decoration: none;
+    color: #d15422;
+    border: 1px solid #d15422;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+
+}
+
+.cinco:hover {
+    background: #d15422;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.estado {
+    color: #b1aeae;
+    float: left;
+
+}
+
+.verde {
+    text-decoration: none;
+    color: #11e23f;
+    border: 1px solid #11e23f;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+
+}
+.rojo {
+    text-decoration: none;
+    color: #e21111;
+    border: 1px solid #e21111;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+
+}
+
+.verde:hover {
+    background: #11e23f;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fecha {
+    color: #b1aeae;
+    float: left;
+
+}
+
+.cap {
+    position: relative;
+    top: 250px;
+    left: 150px;
+    border-bottom: 1px solid #552d2d;
+    color: rgb(194, 34, 55);
+    max-width: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.lista {
+    border: 1px solid #ffffff;
+    position: relative;
+    top: 255px;
+    left: 150px;
+    height: 500px;
+    max-width: 1000;
+}
+
+tr.td-cap > td > a{
+    color: #ebcc34;
+    text-decoration:none;
+    line-height:3;
+    display:block;
+    padding-left: .3em;
+    font-weight: 500;
+    
+}
+
+
+tr.td-cap > td:hover a{
+    
+    background-color:#ebcc34;
+    color:#22062d;
+    padding-left: 2em;
+    font-weight: 700;
+    
+}
+@media only screen and (min-width: 990px) {
+
+.descripcion_anime{
+    padding:15px;
+}
+}
+
+@media only screen and (max-width: 1280px) {
+  .conjunto3 {
+    left:100px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+    .descripcion{
+        margin-left:225px;
+    }
+    .titulo{
+        left:225px;
+    }
+    .portada {
+    margin-left:10px;
+    top:50%;
+  }
+}
+
+@media only screen and (max-width: 774px) {
+    .descripcion{
+        margin-left:225px;
+        top:10px
+    }
+    .titulo{
+        position:static;
+        margin-left:225px;
+    }
+    .portada {
+    margin-left:10px;
+  }
+}
+.titulo_anime{
+    padding:15px;
+}
+
+@media only screen and (max-width: 990px) {
+    .titulo_anime{
+        text-align: center !important;
+        justify-content:center !important;
+        padding:15px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .descripcion_anime{
+        text-align: center !important;
+        justify-content:center !important;
+        padding:15px;
+    }
+}
+
+.info_anime{
+    font-size:0.8rem;
+}
+
+@media only screen and (max-width: 575px) {
+    .info_anime{
+        flex-direction:row !important;
+        padding:15px;
+        justify-content:center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-size:0.8rem;
+    }
+}
+
+.anime_imagen div{
+
+    
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.anime_imagen img{
+    width:96% !important;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 3px solid #a931d2;
+    margin-top:-120px;
+    margin-bottom: 0.5rem;
+}
+
+
+}
+@media only screen and (min-width: 576px) {
+    .anime_imagen img{
+        width:96% !important;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .anime_imagen img{
+        width:50% !important;
+        margin-top: 0;
+    }
+}
+
+.comentarios{ 
+    background-color:#ffeb97;
+}
+
+.carousel{
+    width: 960px; margin: 0 auto
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel{
+        width: 550px; margin: 0 auto
+    }
+}    
+
+
+.puntaje{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    color:#ebcc34;
+}
+
+@media only screen and (max-width: 1024px) {
+    .puntaje{
+        display:none;
+    }
+} 
+
+
+
+/*ANIMACIONES*/
+
+.are-in {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+        opacity: 0;
+        right: -500px;
+        
+	}
+	100% {
+        opacity: 1;
+        right: 0;
+	}
+}

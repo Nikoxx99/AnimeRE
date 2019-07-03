@@ -1,0 +1,23 @@
+<?php
+
+				$sql="";
+				$resultado = $base->query($sql);
+				while($crow=$resultado->fetch(PDO::FETCH_ASSOC)){
+					echo'
+					<div class="col-are-3 anime-card m-1">
+								<div class="card">
+									<a href="../../serie/'.url($crow["Id"],$crow["StrNombre"]).'">
+										<p style="position:absolute;float:right;" class="mt-2 ml-2 badge badge-pills badge-are">'.$tipoA.'</p>
+										<p class="a_description more">'.$crow['StrSinopsis'].'</p>
+										<div class="div_img_s"><img src="'. $crow['StrImagen'] .'" class="card-img-top rounded-0 lazyload" alt="..."></div>
+										<div class="are_info_s">
+											<h5 class="are_s_title">' . $crow['StrNombre'] . '</h5>
+											<p class="badge badge-pills badge-are text-light mb-0">Estreno: '. $crow['StrFechaEstreno'] .'</p>
+											<p class="badge badge-pills badge-are text-light mb-0">'.$crow['estado1'].'</p>
+										</div>
+									</a>
+								</div>
+							</div>
+					';
+				}
+			?>

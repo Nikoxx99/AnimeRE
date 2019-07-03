@@ -1,0 +1,35 @@
+[23-Mar-2019 07:16:14 Europe/Madrid] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%' LIMIT 5' at line 1 in /home2/yjlzwyuv/public_html/bin/controller/buscar.php:11
+Stack trace:
+#0 /home2/yjlzwyuv/public_html/bin/controller/buscar.php(11): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home2/yjlzwyuv/public_html/bin/controller/buscar.php on line 11
+[23-Mar-2019 07:16:14 Europe/Madrid] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%' LIMIT 5' at line 1 in /home2/yjlzwyuv/public_html/bin/controller/buscar.php:11
+Stack trace:
+#0 /home2/yjlzwyuv/public_html/bin/controller/buscar.php(11): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home2/yjlzwyuv/public_html/bin/controller/buscar.php on line 11
+[23-Mar-2019 07:16:15 Europe/Madrid] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%' LIMIT 5' at line 1 in /home2/yjlzwyuv/public_html/bin/controller/buscar.php:11
+Stack trace:
+#0 /home2/yjlzwyuv/public_html/bin/controller/buscar.php(11): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home2/yjlzwyuv/public_html/bin/controller/buscar.php on line 11
+[23-Mar-2019 07:16:17 Europe/Madrid] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's%' LIMIT 5' at line 1 in /home2/yjlzwyuv/public_html/bin/controller/buscar.php:11
+Stack trace:
+#0 /home2/yjlzwyuv/public_html/bin/controller/buscar.php(11): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home2/yjlzwyuv/public_html/bin/controller/buscar.php on line 11
+[23-Mar-2019 07:16:18 Europe/Madrid] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's%' LIMIT 5' at line 1 in /home2/yjlzwyuv/public_html/bin/controller/buscar.php:11
+Stack trace:
+#0 /home2/yjlzwyuv/public_html/bin/controller/buscar.php(11): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home2/yjlzwyuv/public_html/bin/controller/buscar.php on line 11
+[23-Mar-2019 07:16:19 Europe/Madrid] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's%' LIMIT 5' at line 1 in /home2/yjlzwyuv/public_html/bin/controller/buscar.php:11
+Stack trace:
+#0 /home2/yjlzwyuv/public_html/bin/controller/buscar.php(11): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home2/yjlzwyuv/public_html/bin/controller/buscar.php on line 11
+[23-Mar-2019 07:16:20 Europe/Madrid] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's%' LIMIT 5' at line 1 in /home2/yjlzwyuv/public_html/bin/controller/buscar.php:11
+Stack trace:
+#0 /home2/yjlzwyuv/public_html/bin/controller/buscar.php(11): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home2/yjlzwyuv/public_html/bin/controller/buscar.php on line 11

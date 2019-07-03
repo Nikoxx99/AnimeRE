@@ -1,0 +1,5 @@
+[04-Mar-2019 17:14:28 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home2/yjlzwyuv/public_html/slider/admin/db.php:21
+Stack trace:
+#0 /home2/yjlzwyuv/public_html/slider/index.php(3): get_imgs()
+#1 {main}
+  thrown in /home2/yjlzwyuv/public_html/slider/admin/db.php on line 21
